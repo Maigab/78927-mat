@@ -8,11 +8,11 @@ namespace WSDL.operaciones{
         
         public string Saludar(string nombre){
             string msj = nombre;
-            Saludar.add(msj);
+            Saludar.add(nombre);
             return msj;
         }
         public string Mostrar(int id){
-            return Saludar[id+1];
+            return Saludar[id-1];
         }
     }
 }

@@ -4,15 +4,15 @@ using WSDL.mensajes;
 namespace WSDL.operaciones{
     public class Operaciones : Mensajes{
         
-        List<string> Saludar = new List<string>();
+        List<string> Saludo = new List<string>();
         
         public string Saludar(string nombre){
             string msj = nombre;
-            Saludar.add(nombre);
+            Saludo.add(nombre);
             return msj;
         }
         public string Mostrar(int id){
-            return Saludar[id-1];
+            return Saludo[id-1];
         }
     }
 }

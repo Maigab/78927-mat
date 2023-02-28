@@ -5,7 +5,7 @@ namespace WSDL.operaciones{
     public class Operaciones : Mensajes{
         public string Saludar(string nombre){
             string msj = "hola" + nombre;
-            Saludar.add(msj)
+            Saludar.add(msj);
             return msj;
         }
         public string Mostrar(int id){
